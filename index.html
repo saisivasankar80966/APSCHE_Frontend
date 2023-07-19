@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+            integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+            crossorigin="anonymous" />
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+            crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+            crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="./index.css" type="text/css" />
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon"
+            href="https://cdn-icons.flaticon.com/png/128/2560/premium/2560140.png?token=exp=1646492144~hmac=be9c06d2e774723122c857d4a34c640a" />
+    </head>
+
+    <body>
+        <div class="container">
+            <nav>
+                <div class="desk-nav">
+                    <h2 class="luxury-heading"><b> Luxury</b> </h2>
+                    <ul class="desk-nav-links">
+                        <li><a href="#"> Home</a> </li>
+                        <li> <a href="#services">Services</a> </li>
+                        <li> <a href="#categories">Gallery </a></li>
+                        <li> <a href="#about">About Us</a> </li>
+                        <li><a href="#contact"> Contact</a> </li>
+                    </ul>
+                </div>
+                <div class="mb-nav">
+                    <nav class="navbar navbar-expand-lg navbar-light custom-navbar-color">
+                        <a class="navbar-brand" href="#">Luxury</a>
+                        <button class="navbar-toggler" type="button" data-toggle="collapse"
+                            data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link" href="#">Home </a>
+                                <a class="nav-link" href="#services">Services</a>
+                                <a class="nav-link" href="#categories">Gallery</a>
+                                <a class="nav-link" href="#about">About Us</a>
+                                <a class="nav-link" href="#contact">Contact</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </nav>
+            <div class="home-container mt-4">
+                <div class="slideshow d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="banner-heading"> Luxury Jewelry </h1>
+                    <p class="banner-description"> Our luxury jewellery is made of high quality precious metals and
+                        stones.</p>
+                    <p class="date"> </p>
+                </div>
+            </div>
+            <div class="categories-container mt-4 mb-3" id="categories">
+                <h1 class="text-center py-2 categories-heading"><b> Categories</b> </h1>
+                <div class="categories mb-3">
+                    <div class="category" data-type="rings">Rings</div>
+                    <div class="category" data-type="bracelets">Bracelets</div>
+                    <div class="category" data-type="earrings">Earrings</div>
+                    <div class="category" data-type="neckalce">Neckalce</div>
+                    <div class="category" data-type="nose-pins">Nose Pins</div>
+                </div>
+                <div class="items">
+                    <div class="item" data-type="rings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/ring-1_lpruik.jpg"
+                            class="item-img" alt="item-img" />
+                        <h5 class="pt-2 text-bold"> Ring One </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 499 </h5>
+                    </div>
+                    <div class="item" data-type="rings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709981/ring-3_ddskf4.avif" />
+                        <h5 class="pt-2 text-bold"> Ring Two </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 349 </h5>
+                    </div>
+                    <div class="item" data-type="rings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709981/ring-2_tynvkw.jpg" />
+                        <h5 class="pt-2 text-bold"> Ring Three </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 299 </h5>
+                    </div>
+                    <div class="item" data-type="bracelets"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709977/brac-1_pfw4af.jpg" />
+                        <h5 class="pt-2 text-bold"> Bracelet One </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 699 </h5>
+                    </div>
+                    <div class="item" data-type="bracelets"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709977/brac-2_hjgqvb.jpg" />
+                        <h5 class="pt-2 text-bold"> Bracelet Two </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 549 </h5>
+                    </div>
+                    <div class="item" data-type="bracelets"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709977/brac-3_e979dh.jpg" />
+                        <h5 class="pt-2 text-bold"> Bracelet Three </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 499 </h5>
+                    </div>
+                    <div class="item" data-type="earrings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709977/ear-3_cllt7g.jpg" />
+                        <h5 class="pt-2 text-bold"> Earring One </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 399 </h5>
+                    </div>
+                    <div class="item" data-type="earrings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709978/ear-2_gf1pll.jpg" />
+                        <h5 class="pt-2 text-bold"> Earring Two </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 249 </h5>
+                    </div>
+                    <div class="item" data-type="earrings"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709977/ear-1_pmw1p7.webp" />
+                        <h5 class="pt-2 text-bold"> Earring Three </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 199 </h5>
+                    </div>
+                    <div class="item" data-type="neckalce"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/nec-3_rvnmf0.jpg" />
+                        <h5 class="pt-2 text-bold"> Neckalce One </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 599 </h5>
+                    </div>
+                    <div class="item" data-type="neckalce"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/nec-1_fhiozf.jpg" />
+                        <h5 class="pt-2 text-bold"> Neckalce Two </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 499 </h5>
+                    </div>
+                    <div class="item" data-type="neckalce"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/nec-2_psdbfz.jpg" />
+                        <h5 class="pt-2 text-bold"> Neckalce Three </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 349 </h5>
+                    </div>
+                    <div class="item" data-type="nose-pins"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/nose-3_wrmbca.webp" />
+                        <h5 class="pt-2 text-bold"> Nose Pin One </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 549 </h5>
+                    </div>
+                    <div class="item" data-type="nose-pins"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/nose-1_omggpe.jpg" />
+                        <h5 class="pt-2 text-bold"> Nose Pin Two </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 449 </h5>
+                    </div>
+                    <div class="item" data-type="nose-pins"><img
+                            src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/nose-2_lopw4f.jpg" />
+                        <h5 class="pt-2 text-bold"> Nose Pin Three </h5>
+                        <h5 class="pt-1" style="font-family:Roboto"> $ 349 </h5>
+                    </div>
+                </div>
+            </div>
+            <div class="our-services-section mt-5" id="services">
+                <h1 style="font-weight:bold;padding-bottom:8px;" class="services-heading"> Our Services </h1>
+                <div class="d-flex flex-column justify-content-center align-items-center">
+                    <div class="service-card d-flex flex-row justify-content-between align-items-center">
+                        <div class="custom-img-container">
+                            <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709978/customjew-1_xndzng.webp"
+                                alt="custom-img" class="custom-img" />
+                        </div>
+                        <div class="custom-content">
+                            <h1 class="py-1"> Custom Jewelry </h1>
+                            <p class="py-1"> Our team specializes in desinging and carfting complex custom jewly in gold
+                                or platinum. our 3D designer can work with even the most complex ideas and create a
+                                digital model for you to approve before commiting to production.
+                            </p>
+                            <button class="services-button my-1"> Read More </button>
+                        </div>
+                    </div>
+                    <div class="service-card d-flex flex-row justify-content-between align-items-center">
+                        <div class="custom-img-container order-1">
+                            <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709978/engagement-ring_iu4aab.jpg"
+                                alt="custom-img" class="custom-img" />
+                        </div>
+                        <div class="custom-content">
+                            <h1 class="py-1"> Engagement Ring </h1>
+                            <p class="py-1"> Our team of 3D modelers and jewelers can create literally any ring you can
+                                imagine, including complex designs. We're opening up our services to private clients, so
+                                you can get a beatiful, desinger quality engagement ring at an affordablr price.
+                            </p>
+                            <button class="services-button my-1"> Read More </button>
+                        </div>
+                    </div>
+                    <div class="service-card d-flex flex-row justify-content-between align-items-center">
+                        <div class="custom-img-container">
+                            <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/manufacter_ekgymt.jpg"
+                                alt="custom-img" class="custom-img" />
+                        </div>
+                        <div class="custom-content">
+                            <h1 class="py-1"> Jewelry Manufacturing </h1>
+                            <p class="py-1"> We work with you to make sure your jewelry is produces exactly as your
+                                specify and with impeccable standards. We can manufacture a uniuqe collection for your
+                                store, or even work with custom orders for your customers.
+                            </p>
+                            <button class="services-button my-1"> Read More </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="poster-container mt-5 mb-2">
+                <div class="poster-box d-flex flex-column flex-md-row justify-content-center align-items-center">
+                    <div class="poster-img-container">
+                        <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/poster_d7orpk.avif"
+                            class="poster-img" alt="poster-img" />
+                    </div>
+                    <div class="poster-content d-flex flex-column justify-content-center ">
+                        <h1> No limits to the <br /> lifestyle you deserve. </h1>
+                        <p> Contact us and we'll reply you back with<br /> personalised plan and quote.
+                        </p>
+                        <button class="poster-btn"> Send Your Design Idea </button>
+                    </div>
+                </div>
+            </div>
+            <div class="insta-section mt-5 mb-2">
+                <h1 class="text-center pt-5"><b>Contact Us On Instagram</b> </h1>
+                <div class="insta-box d-flex flex-row justify-content-between align-items-center">
+                    <div class="img-1">
+                        <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709980/insta-1_lxnxys.jpg"
+                            alt="insta-img" class="insta-img-1" />
+                    </div>
+                    <div class="mid-img d-flex flex-column justify-content-between align-items-center">
+                        <div class="img-2">
+                            <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709978/insta-2_zybnhf.jpg"
+                                alt="insta-img" class="insta-img-2" />
+                        </div>
+                        <div class="img-3">
+                            <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/insta-3_trbr6u.jpg"
+                                alt="insta-img" class="insta-img-3" />
+                        </div>
+                    </div>
+                    <div class="img-4">
+                        <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/insta-4_zxigdr.jpg"
+                            alt="insta-img" class="insta-img-4" />
+                    </div>
+                </div>
+                <div class="insta-btn text-center">
+                    <button class="services-button my-1"> Instagram </button>
+                </div>
+            </div>
+            <div class="about-section mt-5 mb-2" id="about">
+                <h1 class="pt-3"> <b>About Us</b> </h1>
+                <div class="service-card d-flex flex-column flex-md-row justify-content-between align-items-center">
+                    <div class="custom-img-container">
+                        <img src="https://res.cloudinary.com/jsbsbsbskznznz/image/upload/v1676709979/contact-sec_pbxodw.jpg"
+                            alt="custom-img" class="custom-img" />
+                    </div>
+                    <div class="custom-content about-section-p">
+                        <p class="py-1"> At luxury, we work with high-end designers(both new and established), retail
+                            stores, and also private clients looking for that perfect custome piece or engagement ring.
+                        </p>
+                        <p class="py-1">Our studio combines over 20 years of experience with a modern focus on 3D
+                            printing techonolgy.While we specializing in custom design and didgital modeling we'rw also
+                            a respected high-end jewelry manufacturer.</p>
+                        <p class="py-1"> Our expert team of jewelers and designers will tack your cutom desing idea all
+                            the way from concept to reality.</p>
+                        <div class="about-icons pt-3">
+                            <i class="fa fa-twitter icon" aria-hidden="true"></i>
+                            <i class="fa fa-facebook icon" aria-hidden="true"></i>
+                            <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="insta-btn text-center mt-3">
+                    <button class="services-button my-1"> Contact Us </button>
+                </div>
+            </div>
+            <footer class="mt-5 mb-3" id="contact">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <h1 class="pt-2" style="font-weight:bold;"> Luxury Jewelry </h1>
+                            <p class="pt-3 pr-5"> At luxury, we work with high-end designers(both new and established),
+                                retail stores, and also private clients looking for that perfect custome piece or
+                                engagement ring.
+                            </p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h1 style="font-weight:bold;"> About Us </h1>
+                            <p class="py-2 width"> <a href="#services"> Service </a> </p>
+                            <p class="py-2 width"> <a href="#categories"> Gallery </a> </p>
+                            <p class="py-2 width"> <a href="#about"> About Us </a> </p>
+                        </div>
+                        <div class="col-6 col-md-3">
+                            <h1 style="font-weight:bold;"> Support </h1>
+                            <p class="py-2 width"><i class="fa fa-envelope-o i" aria-hidden="true"></i><span
+                                    class="pl-2"> hello@luxury.com </span></p>
+                            <p class="py-2 width"> <i class="fa fa-mobile i" aria-hidden="true"></i><span class="pl-2">
+                                    +91 7618723716 </span></p>
+                            <div class="about-icons">
+                                <i class="fa fa-twitter icon" aria-hidden="true"></i>
+                                <i class="fa fa-facebook icon" aria-hidden="true"></i>
+                                <i class="fa fa-instagram icon" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="copyright text-center">
+                <h5 class="footer-copyright-info"> Copyright @2023 <b>LUXURY</b> </h5>
+            </div>
+        </div>
+        <script src="./index.js"></script>
+    </body>
+
+</html>
